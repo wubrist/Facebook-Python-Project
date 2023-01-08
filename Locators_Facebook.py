@@ -1,0 +1,61 @@
+Facebook_Web_Address = "https://www.facebook.com"
+Login_Invalid_Password = "32454hfr6"
+Login_Valid_Email = "rutheyove@gmail.com"
+Login_Invalid_Email = "utheyove@gmail.com"
+Login_Valid_Password = "eyove1"
+# Facebook Login
+
+Input_Login_Email_Address = "//input[@id='email']"
+input_login_Password = "//input[@id='pass']"
+Login_Button = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[2]/button[1]"
+
+# login error_messages
+
+Login_Invalid_EmailAndPassword_ErrorMessage = "//div[contains(text(),'Invalid username or password')]"
+Login_ValidEmail_And_InvalidPassword_ErrorMessage = "//div[contains(text(),'Invalid username or password')]"
+Login_InvalidEmail_And_ValidPassword_ErrorMessage = "//div[contains(text(),'Invalid username or password')]"
+Login_Blank_EmailAndPassword_ErrorMessage = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/a[1]"
+
+# Facebook ForgetPassword_locators
+
+ForgetPassword = "//a[contains(text(),'Forgotten password?')]"
+FindYourAccount = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+IdentifyEmail_Element = "//input[@id='identify_email']"
+ForgetPassword_Valid_Email = "your email@*.com"
+ForgetPassword_Invalid_Email = "d@.com"
+Email_Search_Button = "//button[@id='did_submit']"
+IdentifyYourAccount_Element = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+MyAccount_Button = "//a[contains(text(),'This is my account')]"
+ResetYourPasswordPage_Element = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+SendCodeViaEmailButton_Element = "//input[@id='send_email']"
+ResetPassword_continueButton = "//button[contains(text(),'Continue')]"
+EnterSecurityCodePage_Element = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+RecoveryCodeEntry_Element = "//input[@id='recovery_code_entry']"
+NewPasswordPage_Element = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+NewPassword_ContinueButton = "//button[@id='btn_continue']"
+NoSearchResults_ErrorMessage = "//div[contains(text(),'No search results')]"
+PleaseFillInAtLeastOneField_ErrorMessage = "//div[contains(text(),'Please fill in at least one field')]"
+
+# Facebook SignUp_locators
+
+CreateNewAccount = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[5]/a[1]"
+SignUp_Page = "//div[contains(text(),'Sign Up')]"
+FirstName_Element = "firstname"
+LastName_Element = "lastname"
+EmailInput_Element = "reg_email__"
+EmailReEnter_Element = "reg_email_confirmation__"
+Password_Element = "reg_passwd__"
+BirthDay_Element = "//select[@id='day']"
+BirthMonth_Element = "//select[@id='month']"
+BirthYear_Element = "//select[@id='year']"
+GenderSelect_Element = "/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[7]/span[1]/span[2]/input[1]"
+SignUp_Button = "/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[11]/button[1]"
+Email_Conformation = "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+Continue_Button = "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/button[1]"
+Ok_Button = "//a[contains(text(),'OK')]"
+Error_nullAll = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_InvalidEmail = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_nullGender = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_nullFirstName = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_nullLastName = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_Birthday = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
